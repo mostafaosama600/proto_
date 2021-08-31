@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.fixed-menu {
+  background-color: #ffffff;
+  color: #222;
+  position: fixed;
+  z-index: 99999;
+  width: 244px;
+  height: 100%;
+  top: 0;
+  left: -244px;
+}
+.fixed-menu ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  list-style: none;
+}
+.fixed-menu li {
+  padding: 10px;
+}
+.fixed-menu li a {
+  color: #222;
+  text-decoration: none;
+}
+.fixed-menu li a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+.fixed-menu li:hover {
+  color: #0000ff;
+}
+.fixed-menu li i {
+  margin-right: 15px;
+}
+
+.fixed-menu .fa-chevron-right {
+  background-color: #111;
+  color: #ccc;
+  position: absolute;
+  right: -30px;
+  top: 90px;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.scroll_to_top {
+  background-color: #333;
+  color: goldenrod;
+  bottom: 10px;
+  right: 10px;
+  display: block;
+  position: fixed;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: none;
+}
+
+/* .logo {
+  text-align: center;
+} */
+.my-logo {
+  left: 50%;
+  font-style: oblique;
+  /* font-size: 40px; */
+  top: 0;
+  position: absolute;
+}
+.navbar {
+  background-color: rgb(0, 66, 128);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  width: 95%;
+  height: 30vh;
+}
+.navbar .fa-times-circle {
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  position: absolute;
+  cursor: pointer;
+}
+.navbar h4 {
+  color: #000;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.navbar p {
+  color: #000;
+  padding: 10px 50px;
+}
+.navbar a {
+  color: #111;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* techer profile */
+.profile {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+.profile h4 span {
+  color: #222;
+}
+.profile h4 {
+  color: #0000ff;
+}
+.about-teacher {
+  color: #222;
+  font-weight: 600;
+}
+.img-teacher-one {
+  border-radius: 40%;
+}
+/* techer profile */
+/* .navbar li {
+  display: inline-block;
+  padding: 10px;
+  float: right;
+}
+.navbar li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar li a.active {
+  color: goldenrod;
+} */
+/* .block {
+  height: 1200px;
+  text-align: center;
+}
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: none;
+}
+.popup .inner {
+  position: fixed;
+  background-color: #eee;
+  width: 300px;
+  height: 250px;
+  left: 50%;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -125px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px #333;
+}
+.popup .inner h2 {
+  text-align: center;
+  color: #333;
+}
+.popup .inner p {
+  color: #333;
+  margin: 10px 5px;
+  line-height: 1.6rem;
+  font-weight: 500;
+}
+.popup .inner .close {
+  bottom: 10px;
+  right: 10px;
+  position: absolute;
+  border: 2px solid #333;
+  border-radius: 3px;
+}
+.show_popup {
+  background-color: #333;
+  color: goldenrod;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.gallery {
+  width: 400px;
+  margin: auto;
+}
+.gallery img {
+  max-width: 100%;
+}
+.master-img {
+  position: relative;
+}
+.master-img i {
+  position: absolute;
+  padding: 10px;
+  cursor: pointer;
+}
+.master-img .fa-caret-left {
+  top: 50%;
+  left: 0;
+}
+.master-img .fa-caret-right {
+  top: 50%;
+  right: 0;
+}
+.gallery .thumbnails {
+  overflow: hidden;
+}
+.gallery .thumbnails img {
+  width: 19%;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 0.4;
+}
+.selected {
+  border: 1px solid#333;
+  opacity: 1 !important;
+} */
+.products {
+  margin-top: 500px;
+}
+.products .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.heading-teacher {
+  margin: 20px;
+  color: #222;
+}
+
+.products .box-container .box {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #ffffff;
+  flex: 1 1 30rem;
+}
+.products .box-container .box :hover {
+  background-color: #eee;
+}
+
+.products .box-container .box .content {
+  padding: 1.5rem;
+}
+.products .box-container .box .content h3 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: 10px;
+}
+footer ul li a {
+  color: #0000ff;
+}
